@@ -1,0 +1,38 @@
+PODS:
+  - AEXML (4.3.0)
+  - Alamofire (4.7.2)
+  - AlamofireXMLRPC (2.2.0):
+    - AEXML
+    - Alamofire
+  - SWXMLHash (4.0.0)
+
+DEPENDENCIES:
+  - AEXML
+  - Alamofire (~> 4.7)
+  - AlamofireXMLRPC (from `https://github.com/kodlian/AlamofireXMLRPC.git`)
+  - SWXMLHash (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AEXML
+    - Alamofire
+    - SWXMLHash
+
+EXTERNAL SOURCES:
+  AlamofireXMLRPC:
+    :git: https://github.com/kodlian/AlamofireXMLRPC.git
+
+CHECKOUT OPTIONS:
+  AlamofireXMLRPC:
+    :commit: 513f56d9cfe45a8a9bb0462b5b38956fd7df1894
+    :git: https://github.com/kodlian/AlamofireXMLRPC.git
+
+SPEC CHECKSUMS:
+  AEXML: bae92c01e0da64132fd72f748721cda07466032b
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireXMLRPC: 2c3ce65366298bf453273a3a670d6c154bf12689
+  SWXMLHash: 6bbc0bf72975a18ceda469fb7d6a886a26d81694
+
+PODFILE CHECKSUM: 80c43139b9fec3625e91e69d155c0ef3982b28d2
+
+COCOAPODS: 1.5.2
